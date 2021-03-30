@@ -1,0 +1,44 @@
+import java.io.*;
+import java.util.*;
+class Male
+{
+	void puts()
+	{
+		String Male1, Male2;
+		Scanner obj = new Scanner(System.in);
+		Male1 = obj.nextLine();
+		Male2 = obj.nextLine();
+    }
+}
+class Female Extends Male
+{ 
+  void gets()
+    {
+
+		String Female1, Female2;
+		Scanner obje = new Scanner(System.in);
+		Female1 = obje.nextLine();
+		Female2 = obje.nextLine();
+    }
+}
+int main()
+{
+	public static void main(String [] args){
+		String Personname, gender, fathername, mothername;
+		Scanner obj1 = new Scanner(System.in);
+		Personname = obj1.nextLine();
+		gender = obj1.nextLine();
+		fathername = obj1.nextLine();
+		mothername = obj1.nextLine();
+		System.out.println(" "+Personname);
+		System.out.println(" "+gender);
+		System.out.println(" "+fathername);
+		System.out.println(" "+mothername);
+		if (Personname == Gender && fathername == mothername)
+		{
+			obj1 = gets()
+			obj1 = putsts()
+			System.out.println(" "+Personname);
+		}
+	}
+}
